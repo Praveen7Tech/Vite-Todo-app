@@ -46,6 +46,16 @@ input[type="text"]:focus {
   cursor: pointer;
   transition: background-color 0.2s;
 }
+.remove-button {
+  background-color: #ef3515;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius:  6px 6px ;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
 
 .add-button:hover {
   background-color: #3182ce;
@@ -87,6 +97,17 @@ input[type="text"]:focus {
 .todo-text.completed {
   text-decoration: line-through;
   color: #a0aec0;
+}
+
+.complete-button {
+  background-color: #32ba51;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 0.5rem;
 }
 
 .delete-button {
